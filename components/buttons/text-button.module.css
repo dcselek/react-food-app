@@ -1,0 +1,22 @@
+.textButton {
+  padding: 0.7rem;
+  text-decoration: none;
+  border-radius: 0px;
+  color: var(--c-text-grey);
+  cursor: pointer;
+  font-weight: 600;
+
+}
+
+
+.selectedButton{
+    color: var(--c-orange);
+    border-bottom: solid 3px var(--c-orange);
+  box-shadow: 0px 4px 4px rgba(196, 63, 21, 0.1);
+}
+
+.black{
+    color: black;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}

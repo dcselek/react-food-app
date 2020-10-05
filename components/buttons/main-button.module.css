@@ -1,0 +1,22 @@
+.mainButton{
+    width: 82%;
+    height: 70px;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+}
+
+.orange{
+    background-color: var(--c-orange);
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: var(--c-orange);
+}
+
+.tiny{
+    max-width: 159px;
+}
