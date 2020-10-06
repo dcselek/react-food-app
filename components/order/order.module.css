@@ -1,0 +1,64 @@
+.container{
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    max-width: 220px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+    img{
+        order: 0;
+        width: 165px;
+        height: 165px;
+        border-radius: 82.5px;
+        position: absolute;
+        top: -50px;
+        left: 26.5px;
+        filter: drop-shadow(0px 40px 40px rgba(0, 0, 0, 0.3));
+    }
+}
+
+.orderTexts{
+    order: 1;
+    margin-top: 120px;
+    
+    .orderName{
+        order:0;
+        color: black;
+        font-size: 1.30rem;
+        font-weight: 600;
+        max-width: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .orderSalary{
+        order: 1;
+        font-size: 1rem;
+        font-weight: bold;
+        color: var(--c-orange);
+        margin-top: 0.80rem;
+    }
+}
+
+.medContainer{
+
+    width: 156px;
+    height: 212.41px;
+
+    img{
+        width: 127px;
+        height: 127px;
+        border-radius: 63.5px;
+        top: -40px;
+        left: 15px;
+    }
+
+    .orderTexts{
+        margin-top: 80px;
+    }
+}
