@@ -7,7 +7,7 @@ function Card({ className, children, width, height }) {
   return (
     <div
       className={cn(styles.container, className)}
-      style={{ maxWidth: width, maxHeight: height }}
+      style={{ maxWidth: width, minHeight: height }}
     >
       {children}
     </div>
