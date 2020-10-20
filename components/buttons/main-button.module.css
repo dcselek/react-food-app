@@ -1,10 +1,12 @@
 .mainButton{
     width: 82%;
-    height: 70px;
+    height: 60px;
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1rem;
+    border-radius: 99px;
+    cursor: pointer;
 }
 
 .orange{

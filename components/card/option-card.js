@@ -6,13 +6,13 @@ import Card from "./card";
 
 function OptionCard() {
   return (
-    <Card height={315} width={156}>
+    <Card height={156} width={315}>
       <div className={cn(styles.optionCard)}>
         <form>
-            <input type="radio" value="Door"/>
-            <label for="Door">Door delivery</label>
-            <input type="radio" value="Pick"/>
-            <label for="Pick">Pick up</label>
+          <input name="Option" id="Door" type="radio" value="Door" />
+          <label htmlFor="Door">Door delivery</label>
+          <input name="Option" id="Pick" type="radio" value="Pick" />
+          <label htmlFor="Pick">Pick up</label>
         </form>
       </div>
     </Card>
