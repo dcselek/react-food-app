@@ -13,9 +13,9 @@ function ProfileCard({src = '../../public/pp.jpg'}) {
       <div className={cn(styles.details)}>
         <span>Can Selek</span>
         <span>cselekk97@gmail.com</span>
-        <hr />
+        <hr/>
         <span>+234 9011039271</span>
-        <hr />
+        <hr/>
         <span>
           Km 5 refinery road oppsite re public road, effurun, delta state
         </span>
