@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from '../components/buttons/button'
 import MainButton from '../components/buttons/main-button'
+import ProfileButton from '../components/buttons/profile-button'
+import ButtonSearch from '../components/buttons/search-button'
 import TextButton from '../components/buttons/text-button'
 
 
@@ -27,3 +29,14 @@ export const textButton = () => (
 
 </div>
 )
+
+export const profileButton = () => (
+<div>
+<ProfileButton>Orders</ProfileButton>
+<ProfileButton>Pending reviews</ProfileButton>
+<ProfileButton>Faq</ProfileButton>
+<ProfileButton>Help</ProfileButton>
+</div>
+)
+
+export const searchBar = () => <ButtonSearch></ButtonSearch>

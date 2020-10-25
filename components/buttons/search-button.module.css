@@ -1,0 +1,31 @@
+.container{
+    max-width: 314px;
+    height: 60px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+    form{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    input{
+        font-size: 1em;
+        padding-left: 1em;
+        font-weight: 600;
+        line-height: 1em;
+        outline-color: transparent;
+    }
+
+
+    icon{
+        margin-left: 2em;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 0.2em;
+        
+    }
+}
