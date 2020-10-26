@@ -11,11 +11,11 @@ import styles from './card-icon.module.css'
 function CardIcon ({paypal=false,bank=false,card=false,className}) {
     return(
         <icon className={cn(
-            
+            className,
             paypal && styles.paypal,
             bank && styles.bank,
             card && styles.card,
-            className,
+            
         )}>
             {paypal && <Paypal></Paypal>}
             {bank && <Bank></Bank>}

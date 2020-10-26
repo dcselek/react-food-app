@@ -1,0 +1,11 @@
+.layout{
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 325px;
+    padding-top: 61px;
+    margin: 0 auto;
+}

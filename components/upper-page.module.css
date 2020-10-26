@@ -1,0 +1,15 @@
+.container{
+    max-width: 319px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    
+    .rightIcon{
+        padding-top: 0.1em;
+    }
+
+}

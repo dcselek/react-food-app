@@ -5,9 +5,9 @@ import styles from "./payment-card.module.css";
 import Card from "./card";
 import CardIcon from './card-icon'
 
-function PaymentCard({paypalMethod=false}) {
+function PaymentCard({paypalMethod=false,classNames}) {
   return (
-    <div>
+    <div className={cn(classNames,styles.container)}>
     <div className={styles.cardTitle}>
       <span>Payment Method</span>
     </div>
@@ -21,7 +21,7 @@ function PaymentCard({paypalMethod=false}) {
                 id="Card"
                 type="radio"
                 value="Door"
-                checked="checked"
+                
               />
               <CardIcon className={cn(styles.icon)} card></CardIcon>
               <span className={cn(styles.checkmark)}>Card</span>
@@ -37,7 +37,7 @@ function PaymentCard({paypalMethod=false}) {
               id="Bank-Account"
               type="radio"
               value="Pick"
-              checked="checked"
+              
             />
             <span className={cn(styles.checkmark)}></span>
             <CardIcon className={cn(styles.icon)} bank></CardIcon>
@@ -57,7 +57,7 @@ function PaymentCard({paypalMethod=false}) {
                 id="Card"
                 type="radio"
                 value="Door"
-                checked="checked"
+                
               />
               <CardIcon className={cn(styles.icon)} card></CardIcon>
               <span className={cn(styles.checkmark)}>Card</span>
@@ -73,7 +73,7 @@ function PaymentCard({paypalMethod=false}) {
               id="Bank-Account"
               type="radio"
               value="Pick"
-              checked="checked"
+              
             />
             <span className={cn(styles.checkmark)}></span>
             <CardIcon className={cn(styles.icon)} bank></CardIcon>
@@ -88,7 +88,7 @@ function PaymentCard({paypalMethod=false}) {
                 id="Paypal"
                 type="radio"
                 value="Door"
-                checked="checked"
+                
               />
               <span className={cn(styles.checkmark)}></span>
               <CardIcon className={cn(styles.icon)} paypal></CardIcon>

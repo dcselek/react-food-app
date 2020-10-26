@@ -2,7 +2,6 @@
     color: white;
     background-color: #0038FF;
     border-radius: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -10,7 +9,6 @@
     color: white;
     background-color: #F47B0A;
     border-radius: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -18,7 +16,6 @@
     color: white;
     background-color: #EB4796;
     border-radius: 10px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }

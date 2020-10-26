@@ -5,9 +5,9 @@ import { Pencil } from "../icons";
 import styles from "./little-info-card.module.css";
 import Card from "./card";
 
-function LittleInfoCard({ src = "../../public/pp.jpg" }) {
+function LittleInfoCard({classNames, src = "../../public/pp.jpg" }) {
   return (
-    <div>
+    <div className={cn(styles.container,classNames)}>
         <div className={cn(styles.title)}>
       <span >Information</span>
       </div>

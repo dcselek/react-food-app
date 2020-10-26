@@ -3,12 +3,12 @@ import cn from "classnames";
 
 import styles from "./order.module.css";
 
-function Order({ className, src, alt, name = "", price = "", med, tiny }) {
+function Order({ classNames, src, alt, name = "", price = "", med, tiny }) {
   return (
     <div
       className={cn(
         styles.container,
-        className,
+        classNames,
         med && styles.medContainer,
         tiny && styles.tinyContainer
       )}

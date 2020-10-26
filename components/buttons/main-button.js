@@ -9,10 +9,11 @@ function MainButton({ classNames,tiny=false, orange=false,white=false,children, 
       className={cn(
         
         styles.mainButton,
-        classNames,
+        
         tiny && styles.tiny,
         orange && styles.orange,
         white && styles.white,
+        classNames,
         
       )}
     >

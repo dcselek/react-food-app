@@ -1,3 +1,9 @@
+.container{
+    max-width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .optionCard{
     
     font-size: 17px;
