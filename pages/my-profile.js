@@ -18,9 +18,9 @@ function MyProfile() {
         <UpperPage>My Profile</UpperPage>
         <LittleInfoCard></LittleInfoCard>
         <PaymentCard paypalMethod></PaymentCard>
-        <div className="bottom-btn">
-          <MainButton orange>Update</MainButton>
-        </div>
+
+        <MainButton classNames="bottom-btn" orange>Update</MainButton>
+
       </Layout>
     </div>
   );
