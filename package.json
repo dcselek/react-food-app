@@ -37,6 +37,7 @@
     "postcss-custom-media": "^7.0.8",
     "postcss-loader": "^4.0.0",
     "postcss-nested": "^4.2.3",
+    "prettier": "^2.1.2",
     "react-is": "^16.13.1"
   }
 }

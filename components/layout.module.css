@@ -1,18 +1,18 @@
-.layout{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+.layout {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-.container{
-    width: 75%;
-    min-width: 315px;
-    display: flex;
-    flex-direction: column;
+.container {
+  width: 75%;
+  min-width: 315px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 330px) {
-    .container {
-        min-width: 300px;
-    }
+  .container {
+    min-width: 300px;
+  }
 }

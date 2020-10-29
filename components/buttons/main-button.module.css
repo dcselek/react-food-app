@@ -1,31 +1,37 @@
-.mnBtn{
-    margin-top: auto;
+.mnBtn {
+  margin-top: auto;
 }
 
-.mainButton{
-    width: 100%;
-    height: 60px;
-    font-weight: 600;
-    font-size: 17px;
-    border-radius: 99px;
-    cursor: pointer;
-    font-family: 'SF Pro Display';
-    font-weight: 600;
-    
+.mainButton {
+  width: 100%;
+  height: 60px;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 99px;
+  cursor: pointer;
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.orange{
-    background-color: var(--c-orange);
-    color: white;
+.orange {
+  background-color: var(--c-orange);
+  color: white;
 }
 
-.white{
-    background-color: white;
-    color: var(--c-orange);
+.white {
+  background-color: white;
+  color: var(--c-orange);
 }
 
-.tiny{
-    max-width: 159px;
-    margin-bottom: 0;
-
+.tiny {
+  max-width: 159px;
+  margin-bottom: 0;
 }

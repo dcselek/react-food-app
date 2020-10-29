@@ -1,0 +1,29 @@
+.container{
+    font-size: 18px;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 1.66em;
+    border-bottom-right-radius: 1.66em;
+    img{
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .buttons{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 0.9em;
+
+        .login{
+            margin-right: 40px;
+            @media screen and (min-width: 768px) {
+                margin-right: 80px;
+            }
+        }
+    }
+}
+

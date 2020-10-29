@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 
 import styles from "./login.module.css";
+import MainButton from "../buttons/main-button";
 
 function Login() {
   return (
