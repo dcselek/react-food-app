@@ -7,6 +7,7 @@ import styles from './side-menu.module.css'
 function SideMenu() {
     return (
         <div className={cn(styles.container)}>
+            <div className={cn(styles.sidemenu)}>
             <div className={cn(styles.buttonContainer)}>
                 <icon><GgProfile></GgProfile></icon>
                 <span>Profile</span>
@@ -30,6 +31,7 @@ function SideMenu() {
             <div className={cn(styles.buttonContainer)}>
                 <icon><Security></Security></icon>
                 <span>Security</span>
+            </div>
             </div>
         </div>
     );
