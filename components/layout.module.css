@@ -1,11 +1,18 @@
 .layout{
-    max-width: 768px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 75%;
+    min-width: 315px;
     display: flex;
     flex-direction: column;
 }
 
-.container{
-    max-width: 325px;
-    padding-top: 61px;
-    margin: 0 auto;
+@media screen and (max-width: 330px) {
+    .container {
+        min-width: 300px;
+    }
 }

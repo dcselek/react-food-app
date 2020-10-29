@@ -1,13 +1,11 @@
 .container{
-    max-width: 315px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 1em;
 }
 
 .optionCard{
     
     font-size: 17px;
-
+    
    
 
     form{

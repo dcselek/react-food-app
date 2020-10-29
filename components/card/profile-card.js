@@ -1,13 +1,18 @@
 import React from "react";
 import cn from "classnames";
 
-
+import pp from '../../public/pp.jpg'
 import styles from "./profile-card.module.css";
 import Card from "./card";
 
-function ProfileCard({src = '../../public/pp.jpg'}) {
+function ProfileCard({src = pp}) {
   return (
-    <Card height={197} width={315}>
+    <div className={styles.container}>
+    <div className={cn(styles.topTexts)}>
+          <span>Personal details</span>
+          <span>change</span>
+      </div>
+    <Card height={197}>
       <div className={cn(styles.profileCard)}>
       <img src={src} alt='profile-picture'></img>
       <div className={cn(styles.details)}>
@@ -22,6 +27,7 @@ function ProfileCard({src = '../../public/pp.jpg'}) {
       </div>
       </div>
     </Card>
+    </div>
   );
 }
 

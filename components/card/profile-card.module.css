@@ -1,6 +1,12 @@
+.container{
+    font-size: 17px;
+    margin-bottom: 1.58em;
+}
+
 .profileCard{
     display: flex;
     flex-direction: row;
+    
 
     img{
         max-width: 91px;
@@ -12,6 +18,28 @@
     }
 }
 
+.topTexts{
+    
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1em;
+
+    :nth-child(1){
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    :nth-child(2){
+        color: var(--c-orange);
+        font-size: 0.9em;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}
+
 .details{
     display: flex;
     flex-direction: column;
@@ -20,6 +48,14 @@
     height: 145px;
     order: 1;
     margin-top: 1em;
+
+    hr{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        width: 95%;
+        margin-right: 15px;
+        opacity: 0.5;    
+    }
     
 
     :nth-child(1){
@@ -42,10 +78,3 @@
 }
 
 
-hr{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    width: 95%;
-    margin-right: 15px;
-    opacity: 0.5;    
-}

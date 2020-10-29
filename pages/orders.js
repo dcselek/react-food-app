@@ -1,0 +1,27 @@
+import React from "react";
+import Head from 'next/head'
+
+import Layout from "../components/layout";
+import UpperPage from "../components/upper-page";
+import HistoryOrders from "../components/empty-contents/history-orders";
+import MainButton from "../components/buttons/main-button";
+
+function Orders(props) {
+  return (
+    <div>
+      <Head>
+        <title>History - Food App</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Layout>
+        <UpperPage>Orders</UpperPage>
+        <HistoryOrders></HistoryOrders>
+        <div className="bottom-btn">
+          <MainButton orange>Start ordering</MainButton>
+        </div>
+      </Layout>
+    </div>
+  );
+}
+
+export default Orders;

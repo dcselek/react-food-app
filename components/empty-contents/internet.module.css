@@ -1,0 +1,19 @@
+.container{
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    span{
+        margin-top: 1.53rem;
+        margin-bottom: 1rem;
+        color: black;
+        font-size: 1.65em;
+        font-weight: 600;
+        
+    }
+    p{
+        opacity: 0.5;
+    }
+}

@@ -1,9 +1,13 @@
+.container{
+    font-size: 17px;
+    margin-bottom: 2.47em;
+}
+
 .infoCard{
     display: flex;
     flex-direction: column;
     font-size: 17px;
     padding: 25px 25px 25px 30px;
-    width: 232px;
 
     hr{
         margin-top: 0.5em;
@@ -34,7 +38,6 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    max-width: 311px;
     margin-bottom: 1em;
 
     :nth-child(1){

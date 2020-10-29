@@ -6,12 +6,12 @@ import Card from "./card";
 
 function InfoCard() {
   return (
-    <div>
+    <div className={cn(styles.container)}>
     <div className={cn(styles.topTexts)}>
           <span>Adress details</span>
           <span>change</span>
       </div>
-    <Card height={156} width={315}>
+    <Card height={156}>
 
       <div className={cn(styles.infoCard)}>
         <span>Can Selek</span>

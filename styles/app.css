@@ -45,8 +45,15 @@ hr{
 
 body{
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-    background-color: grey;
+    background-color: #F5F5F8;
 
     font-family: 'SF Pro Display';
 }
 
+.bottom-btn{
+    margin-top: auto;
+    margin-bottom: 41px;
+    @media screen and (max-height: 812px) {
+        margin-bottom: 10px;
+    }
+}

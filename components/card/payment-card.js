@@ -11,7 +11,7 @@ function PaymentCard({paypalMethod=false,classNames}) {
     <div className={styles.cardTitle}>
       <span>Payment Method</span>
     </div>
-    {!paypalMethod && <Card height={205} width={315}>
+    {!paypalMethod && <Card height={205}>
       <div className={cn(styles.optionCard)}>
         <form>
           <div>

@@ -1,10 +1,10 @@
-export { default as Calendar } from './Calendar'
+
+
 export { default as ArrowLeft } from './ChevronLeft1'
 export { default as ArrowRight } from './ChevronLeft'
 export { default as EvaWifiOffFill } from './EvaWifiOffFill'
 export { default as FeatherSearch } from './FeatherSearch'
 export { default as GgProfile } from './GgProfile'
-export { default as Group67 } from './Group67'
 export { default as Group1 } from './Group1'
 export { default as Group } from './Group'
 export { default as Heart1 } from './Heart1'

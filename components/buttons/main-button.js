@@ -3,7 +3,7 @@ import cn from "classnames";
 import styles from "./main-button.module.css";
 import Button from "./button";
 
-function MainButton({ classNames,tiny=false, orange=false,white=false,children, ...props }) {
+function MainButton({classNames,tiny=false, orange=false,white=false,children, ...props }) {
   return (
     <Button
       className={cn(
@@ -16,6 +16,7 @@ function MainButton({ classNames,tiny=false, orange=false,white=false,children, 
         classNames,
         
       )}
+      {...props}
     >
       {children}
     </Button>

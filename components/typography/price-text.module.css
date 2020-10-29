@@ -1,0 +1,16 @@
+.priceText{
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 2.23em;
+    
+    :nth-child(1){
+        font-size: 1em;
+        font-weight: 400;
+    }
+    :nth-child(2){
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+}

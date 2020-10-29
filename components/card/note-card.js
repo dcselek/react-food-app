@@ -7,7 +7,7 @@ import Card from "./card";
 
 function NoteCard({}) {
   return (
-    <Card height={322} width={315} className={cn(styles.noteCard)}>
+    <Card height={322} className={cn(styles.noteCard)}>
     <div className={cn(styles.content)}>
         <span>Please note</span>
         <span className={cn(styles.orderLocation)}>DELIVERY TO MAINLAND</span>

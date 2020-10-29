@@ -3,14 +3,15 @@ import cn from "classnames";
 
 import styles from "./option-card.module.css";
 import Card from "./card";
+import PriceText from '../typography/price-text'
 
 function OptionCard() {
   return (
-    <div>
+    <div className={cn(styles.container)}>
     <div className={styles.cardTitle}>
       <span>Delivery Method</span>
     </div>
-    <Card height={156} width={315}>
+    <Card height={156}>
       <div className={cn(styles.optionCard)}>
         <form>
           <div>
@@ -44,6 +45,7 @@ function OptionCard() {
         </form>
       </div>
     </Card>
+    <PriceText></PriceText>
     </div>
   );
 }
