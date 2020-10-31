@@ -1,60 +1,63 @@
 @import './variable.css';
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'SF Pro Display';
+  src: url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('../fonts/subset-SFProDisplay-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'SF Pro Display';
+  src: url('../fonts/subset-SFProDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('../fonts/subset-SFProDisplay-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'SF Pro Display';
+  src: url('../fonts/subset-SFProDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('../fonts/subset-SFProDisplay-Semibold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'SF Pro Display';
+  src: url('../fonts/subset-SFProDisplay-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-hr{
-    border: inset 1px;
-    opacity: 0.5;
+hr {
+  border: inset 1px;
+  opacity: 0.5;
 }
 
-body{
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-    background-color: #F5F5F8;
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  background-color: #f5f5f8;
 
-    font-family: 'SF Pro Display';
+  font-family: 'SF Pro Display';
 }
 
-.bottom-btn{
-    margin-top: auto;
-    margin-bottom: 41px;
-    @media screen and (max-height: 812px) {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+.bottom-btn {
+  margin-top: auto;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-height: 812px) {
+    margin-bottom: 20px;
+  }
 }

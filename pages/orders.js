@@ -16,7 +16,9 @@ function Orders(props) {
       <Layout>
         <UpperPage>Orders</UpperPage>
         <HistoryOrders></HistoryOrders>
-        <MainButton classNames="bottom-btn" orange>Start ordering</MainButton>
+        <div className="bottom-btn">
+        <MainButton orange>Start ordering</MainButton>
+        </div>
       </Layout>
     </div>
   );

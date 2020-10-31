@@ -20,9 +20,11 @@ function CheckoutDelivery() {
         <TitleText>Delivery</TitleText>
         <InfoCard></InfoCard>
         <OptionCard></OptionCard>
-        <MainButton classNames="bottom-btn" orange>
+        <div className="bottom-btn">
+        <MainButton  orange>
           Proceed to payment
         </MainButton>
+        </div>
       </Layout>
     </div>
   );

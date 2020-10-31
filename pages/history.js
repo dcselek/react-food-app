@@ -15,9 +15,9 @@ function History(props) {
       <Layout>
         <UpperPage>History</UpperPage>
         <HistoryOrders history></HistoryOrders>
-        
-        <MainButton classNames="bottom-btn" orange>Start ordering</MainButton>
-        
+        <div className="bottom-btn">
+          <MainButton orange>Start ordering</MainButton>
+        </div>
       </Layout>
     </div>
   );

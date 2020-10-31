@@ -15,7 +15,9 @@ function Navbar() {
             <div className={cn(styles.menu)}>
                 <div className={cn(styles.menuIcon)}>
                     <a><Menu onClick={openSideBar} /></a>
-                    <a className={cn(styles.rightIcon)}><ShoppingCart></ShoppingCart></a>
+                    <Link href="/orders">
+                        <a className={cn(styles.rightIcon)}><ShoppingCart></ShoppingCart></a>
+                    </Link>
                 </div>
 
             </div>
@@ -24,7 +26,7 @@ function Navbar() {
                     <div className={cn(styles.navIcon)}>
                         <span>Menu</span>
                         <AiIcons.AiOutlineClose cursor={'pointer'} size={30} style={{ fill: 'white', marginLeft: '' }} onClick={openSideBar} />
-                        
+
                     </div>
                     <li>
                         <icon><GgProfile /></icon>
@@ -70,6 +72,12 @@ function Navbar() {
                         <icon><Security /></icon>
                         <Link href="/login">
                             <a>Login</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <icon><Security /></icon>
+                        <Link href="/food-info">
+                            <a>Food Info</a>
                         </Link>
                     </li>
                 </ul>

@@ -10,6 +10,8 @@ import Orders from '../pages/orders';
 import NoInternet from '../pages/no-internet';
 import LoginPage from '../pages/login';
 import FoodInfo from '../pages/food-info';
+import HomePage from '../pages';
+import MainPage from '../pages/main-page';
 
 export default {
     title: "Pages",
@@ -24,6 +26,8 @@ export const upperPage = () => (
     </div>
 )
 
+export const index = () => <HomePage></HomePage>
+export const mainPage = () => <MainPage></MainPage>
 export const myProfile = () => <MyProfile></MyProfile>
 export const checkoutDelivery = () => <CheckoutDelivery></CheckoutDelivery>
 export const checkoutPayment = () => <CheckoutPayment></CheckoutPayment>

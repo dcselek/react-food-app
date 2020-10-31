@@ -20,9 +20,11 @@ function CheckoutPayment() {
         <TitleText>Payment</TitleText>
         <PaymentCard></PaymentCard>
         <OptionCard></OptionCard>
-        <MainButton classNames="bottom-btn" orange>
-          Proceed to payment
-        </MainButton>
+        <div className="bottom-btn">
+          <MainButton orange>
+            Proceed to payment
+          </MainButton>
+        </div>
       </Layout>
     </div>
   );

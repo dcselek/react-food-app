@@ -1,0 +1,50 @@
+.layout{
+    background-color: #FF4B3A;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+    h1{
+        font-size: 55px;
+        font-weight: 800;
+        margin-top: 31px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+    }
+
+    .logo{
+        background-color: white;
+        height: 74px;
+        width: 74px;
+        border-radius: 37px;
+        display: flex;
+        margin-top: 56px;
+
+        @media screen and (min-width: 768px) {
+            
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        img{
+            width: 40px;
+            height: 50px;
+            margin: auto;
+        }
+    }
+
+    
+}

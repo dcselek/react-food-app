@@ -23,9 +23,11 @@ function MyProfile1() {
         <ProfileButton>Pending reviews</ProfileButton>
         <ProfileButton>Faq</ProfileButton>
         <ProfileButton>Help</ProfileButton>
-        <MainButton classNames="bottom-btn" orange>
-          Update
-        </MainButton>
+        <div className="bottom-btn">
+          <MainButton orange>
+            Update
+          </MainButton>
+        </div>
       </Layout>
     </div>
   );

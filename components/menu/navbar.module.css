@@ -45,6 +45,13 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 3em;
+
+    :nth-child(1){
+      cursor: pointer;
+    }
+    :nth-child(2){
+      cursor: pointer;
+    }
 }
 
 .navIcon{

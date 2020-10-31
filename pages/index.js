@@ -2,21 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from "../components/menu/navbar";
-import Layout from '../components/layout'
+import GetStarted from "../components/first-page/first-page";
+import MainButton from "../components/buttons/main-button";
 
 function HomePage() {
   return (
     <div>
-      <Head>
-        <title>Homepage - Food App</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-      <Layout>
-      <div>
-        <Navbar></Navbar>
-      </div>
-      </Layout>
+      <GetStarted>
+        <div className="bottom-btn">
+          <Link href="/login">
+            <MainButton white>Get Started</MainButton>
+          </Link>
+        </div>
+      </GetStarted>
     </div>
   );
 }
