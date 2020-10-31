@@ -54,6 +54,7 @@ body{
     margin-top: auto;
     margin-bottom: 41px;
     @media screen and (max-height: 812px) {
+        margin-top: 10px;
         margin-bottom: 10px;
     }
 }

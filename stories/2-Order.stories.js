@@ -1,6 +1,7 @@
 import React from "react";
 
 import Order from "../components/order/order";
+import Splash from "../components/order/splash";
 import Kebab from "../public/kebab.jpg";
 
 export default {
@@ -17,3 +18,5 @@ export const orderMedium = () => (
 export const orderTiny = () => (
   <Order tiny name="Veggie tomato mix" price="17$" src={Kebab}></Order>
 );
+
+export const splash = () => <Splash></Splash>

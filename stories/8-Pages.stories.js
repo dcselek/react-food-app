@@ -9,6 +9,7 @@ import pp from "../public/pp.jpg";
 import Orders from '../pages/orders';
 import NoInternet from '../pages/no-internet';
 import LoginPage from '../pages/login';
+import FoodInfo from '../pages/food-info';
 
 export default {
     title: "Pages",
@@ -31,3 +32,4 @@ export const history = () => <History></History>
 export const orders = () => <Orders></Orders>
 export const internet = () => <NoInternet></NoInternet>
 export const login = () => <LoginPage></LoginPage>
+export const foodInfo = () => <FoodInfo></FoodInfo>
