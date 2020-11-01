@@ -17,22 +17,18 @@ function SideMenu() {
                     <div className={cn(styles.buttonContainer)}>
                         <icon><GgProfile></GgProfile></icon>
                         <span>Profile</span>
-                        <hr></hr>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><Buy></Buy></icon>
                         <span>Orders</span>
-                        <hr></hr>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><LocalOffer></LocalOffer></icon>
                         <span>Offer and Promo</span>
-                        <hr></hr>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><StickyNote></StickyNote></icon>
                         <span>Privacy Policy</span>
-                        <hr></hr>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><Security></Security></icon>
