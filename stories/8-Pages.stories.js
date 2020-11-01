@@ -12,6 +12,7 @@ import LoginPage from '../pages/login';
 import FoodInfo from '../pages/food-info';
 import HomePage from '../pages';
 import MainPage from '../pages/main-page';
+import NotFound from '../pages/not-found';
 
 export default {
     title: "Pages",
@@ -37,3 +38,4 @@ export const orders = () => <Orders></Orders>
 export const internet = () => <NoInternet></NoInternet>
 export const login = () => <LoginPage></LoginPage>
 export const foodInfo = () => <FoodInfo></FoodInfo>
+export const notFound = () => <NotFound></NotFound>
