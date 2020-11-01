@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head'
 
 import Layout from '../components/layout'
-import Splash from '../components/order/splash';
+import Splash from '../components/foods/splash';
 import UpperPage from '../components/upper-page'
 import MainButton from '../components/buttons/main-button'
 

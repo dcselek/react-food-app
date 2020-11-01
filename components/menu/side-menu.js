@@ -1,10 +1,9 @@
 import React from 'react';
 import cn from 'classnames'
 
-import { GgProfile, Buy, LocalOffer, StickyNote, Security, ArrowRight } from '../icons'
+import { GgProfile, Buy, LocalOffer, StickyNote, Security} from '../icons'
 import styles from './side-menu.module.css'
 import SignOut from '../icons/Sign-out'
-import FoodInfo from '../../pages/food-info';
 import UpperPage from '../upper-page';
 import TitleText from '../typography/title-text';
 import kebab from '../../public/kebab.jpg'

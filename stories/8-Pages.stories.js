@@ -13,6 +13,9 @@ import FoodInfo from '../pages/food-info';
 import HomePage from '../pages';
 import MainPage from '../pages/main-page';
 import NotFound from '../pages/not-found';
+import Menu from '../pages/menu'
+import MyOffers from '../pages/my-offers'
+import Search from '../pages/search'
 
 export default {
     title: "Pages",
@@ -39,3 +42,6 @@ export const internet = () => <NoInternet></NoInternet>
 export const login = () => <LoginPage></LoginPage>
 export const foodInfo = () => <FoodInfo></FoodInfo>
 export const notFound = () => <NotFound></NotFound>
+export const menu = () => <Menu></Menu>
+export const myOffers = () => <MyOffers></MyOffers>
+export const search = () => <Search></Search>

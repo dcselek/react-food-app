@@ -1,7 +1,8 @@
 import React from "react";
 
-import Order from "../components/order/order";
-import Splash from "../components/order/splash";
+import Order from "../components/foods/order";
+import SearchFood from "../components/foods/search-food";
+import Splash from "../components/foods/splash";
 import Kebab from "../public/kebab.jpg";
 
 export default {
@@ -20,3 +21,4 @@ export const orderTiny = () => (
 );
 
 export const splash = () => <Splash></Splash>
+export const searchFood = () => <SearchFood></SearchFood>

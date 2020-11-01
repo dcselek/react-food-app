@@ -1,5 +1,5 @@
 .layout {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -14,5 +14,11 @@
 @media screen and (max-width: 330px) {
   .container {
     min-width: 300px;
+  }
+}
+
+.searchLayout {
+  .container {
+    width: 100%;
   }
 }
