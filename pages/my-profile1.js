@@ -1,6 +1,6 @@
 import React from "react";
 import Head from 'next/head'
-
+import { Scrollbars } from 'react-custom-scrollbars';
 import ProfileCard from "../components/card/profile-card";
 import Layout from "../components/layout";
 import TitleText from "../components/typography/title-text";

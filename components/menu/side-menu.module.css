@@ -1,10 +1,17 @@
 .container {
-  color: white;
-  align-items: center;
   background-color: var(--c-orange);
-  width: 250px;
   height: 100vh;
-  padding-top: 2em;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.menuContainer {
+  color: white;
+  display: flex;
+  padding-top: 150px;
+  flex-direction: column;
 }
 
 .sidemenu {
@@ -13,7 +20,7 @@
 
   .buttonContainer {
     font-weight: 600;
-    margin-left: 2em;
+    margin-left: 1.5em;
 
     hr {
       width: 132px;
@@ -25,6 +32,66 @@
     span {
       margin-left: 0.7em;
       cursor: pointer;
+    }
+  }
+}
+
+.lastButton {
+  margin: auto 0 84px 34px;
+  font-size: 17px;
+  display: flex;
+
+  span {
+    font-weight: 600;
+    margin-right: 0.5em;
+  }
+}
+
+.pContainer {
+  background-color: white;
+  max-width: 140px;
+  max-height: 532px;
+  margin: auto 0 auto auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  -webkit-box-shadow: -9px 35px 2px 8px rgba(248, 107, 59, 1);
+  -moz-box-shadow: -9px 35px 2px 8px rgba(248, 107, 59, 1);
+  box-shadow: -9px 35px 2px 8px rgba(248, 107, 59, 1);
+
+  .content {
+    margin-left: 15px;
+    :nth-child(1) {
+      margin-top: 5px;
+    }
+
+    :nth-child(2) {
+      margin-left: 5px;
+    }
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      float: right;
+      margin-right: 5px;
+      margin-bottom: 15px;
+    }
+
+    :nth-child(4){
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    :nth-child(6){
+      font-weight: 500;
+    }
+    p{
+      font-size: 10px;
+      opacity: 0.5;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
   }
 }
