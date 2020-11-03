@@ -39,6 +39,7 @@
   border: 0;
 }
 
+
 hr {
   border: inset 1px;
   opacity: 0.5;
@@ -53,19 +54,19 @@ body {
 
 .bottom-btn {
   margin-top: auto;
-  padding-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 0.625rem;
+  margin-bottom: 0.625rem;
   display: flex;
   align-items: center;
 
   @media screen and (min-height: 812px) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }
 
 .main-page-nav{
-  margin-top: 46px;
-  padding-left: 30px;
+  margin-top: 2.875rem;
+  padding-left: 1.875rem;
 
   @media screen and (min-width: 764px) {
     padding-left: 0;
@@ -85,7 +86,7 @@ body {
   a{
     position: absolute;
     right: 20px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     color: var(--c-orange);
     cursor: pointer;
   }

@@ -1,7 +1,7 @@
 .noteCard{
     border-radius: 30px;
     background: linear-gradient(#EDEDED 20%, white 20%) no-repeat;
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Poppins',sans-serif;
@@ -10,10 +10,10 @@
 .content{
     display: flex;
     flex-direction: column;
-    max-width: 256px;
+    width: 256px;
     padding-top: 17px;
     padding-left: 48px;
-
+    font-size: 0.9375rem;
     
 
     :nth-child(1){
@@ -26,7 +26,7 @@
 
     hr{
         margin: 1.5em 0;
-        margin-right: 30px;
+        margin-right: 2em;
     }
 
     .orderLocation{
@@ -60,7 +60,7 @@
 @media only screen and (max-width: 320px){
 
     .content{
-        padding-left: 38px;
+        padding-left: 2.375rem;
     }
     .contentButtons{
 

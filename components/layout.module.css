@@ -9,6 +9,7 @@
   min-width: 315px;
   display: flex;
   flex-direction: column;
+  position: sticky;
 }
 
 @media screen and (max-width: 330px) {

@@ -4,7 +4,7 @@
 
 .optionCard{
     
-    font-size: 17px;
+    font-size: 1.0625rem;
     
    
 
@@ -36,7 +36,7 @@
     margin-right: 0.88em;
 }
 .cardTitle{
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
     margin-left: 0.2em;
     margin-bottom: 1.2em;

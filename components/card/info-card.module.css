@@ -1,13 +1,13 @@
 .container{
-    font-size: 17px;
+    font-size: 1.0625rem;
     margin-bottom: 2.47em;
 }
 
 .infoCard{
     display: flex;
     flex-direction: column;
-    font-size: 17px;
-    padding: 25px 25px 25px 30px;
+    font-size: 1.0625rem;
+    padding: 1.471em 1.471em 1.471em 1.765em;
 
     hr{
         margin-top: 0.5em;
@@ -33,7 +33,7 @@
 
 .topTexts{
     
-    font-size: 17px;
+    font-size: 1.0625rem;
     display: flex;
     flex-direction: row;
     align-items: baseline;

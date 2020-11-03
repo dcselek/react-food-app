@@ -1,16 +1,16 @@
 
 .container{
-    font-size: 13px;
+    font-size: 0.8125rem;
     margin-bottom: 3em;
     margin-top: 2.3em;
     max-width: 315px;
 }
 
 .title{
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
-    padding-bottom: 12px;
-    padding-left: 5px;
+    padding-bottom: 0.706em;
+    padding-left: 0.294em;
 }   
 
 .profileCard{
@@ -19,7 +19,7 @@
         border-radius: 10px;
     }
     
-    font-size: 13px;
+    font-size: 0.8125rem;
     display: flex;
     padding-top: 1.53em;
     padding-left: 1.23em;
@@ -56,8 +56,8 @@
 
                 margin: 0;
                 margin-right: 1em;
-                width: 17px;
-                height: 17px;
+                width: 1.0625rem;
+                height: 1.0625rem;
                 opacity: 1;
                 cursor: pointer;
             }

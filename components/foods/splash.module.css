@@ -1,5 +1,5 @@
 .splashContainer {
-  font-size: 17px;
+  font-size: 1.0625rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,9 +22,9 @@
   }
 
   :nth-child(3) {
-    margin-top: 45px;
+    margin-top: 1.607em;
     margin-bottom: 0.7em;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
     color: black;
   }
@@ -42,14 +42,14 @@
     text-align: start;
     
     span{
-        font-size: 17px;
+        font-size: 1.0625rem;
         font-weight: 600;
-        margin-top: 43px;
-        margin-bottom: 7px;
+        margin-top: 2.529em;
+        margin-bottom: 0.412em;
     }
 
     p{
-        font-size: 15px;
+        font-size: 0.9375rem;
 
     }
 }
@@ -58,5 +58,5 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
