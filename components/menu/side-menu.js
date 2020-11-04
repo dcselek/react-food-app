@@ -15,29 +15,29 @@ function SideMenu() {
                 <div className={cn(styles.sidemenu)}>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><GgProfile></GgProfile></icon>
-                        <span>Profile</span>
+                        <a>Profile</a>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><Buy></Buy></icon>
-                        <span>Orders</span>
+                        <a>Orders</a>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><LocalOffer></LocalOffer></icon>
-                        <span>Offer and Promo</span>
+                        <a>Offer and Promo</a>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><StickyNote></StickyNote></icon>
-                        <span>Privacy Policy</span>
+                        <a>Privacy Policy</a>
                     </div>
                     <div className={cn(styles.buttonContainer)}>
                         <icon><Security></Security></icon>
-                        <span>Security</span>
+                        <a>Security</a>
                     </div>
 
                 </div>
 
                 <div className={cn(styles.lastButton)}>
-                    <span>Sign-Out</span>
+                    <a>Sign-Out</a>
                     <icon><SignOut /></icon>
                 </div>
 
@@ -45,11 +45,11 @@ function SideMenu() {
             <div className={cn(styles.pContainer)}>
                 <div className={styles.content}>
                 <UpperPage></UpperPage>
-                <TitleText>Foods</TitleText>
+                <TitleText>Food</TitleText>
                 <img src={kebab}></img>
-                <span>Kebab <br/></span>
+                <h4>Kebab <br/></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <span>Information</span>
+                <h4>Information</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </div>
             </div>

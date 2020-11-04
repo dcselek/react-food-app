@@ -6,7 +6,7 @@ import styles from './title-text.module.css'
 function TitleText({children}) {
     return (
         <div className={cn(styles.titleText)}>
-            <span>{children}</span>
+            <h2>{children}</h2>
         </div>
     );
 }

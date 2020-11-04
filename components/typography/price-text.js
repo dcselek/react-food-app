@@ -6,8 +6,8 @@ import styles from './price-text.module.css'
 function PriceText() {
     return (
         <div className={cn(styles.priceText)}>
-            <span>Total</span>
-            <span>23$</span>
+            <h5>Total</h5>
+            <p>23$</p>
         </div>
     );
 }
